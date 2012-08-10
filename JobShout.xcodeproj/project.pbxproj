@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C06031B13D20E7700C5A893 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C06031913D20E7700C5A893 /* AboutViewController.m */; };
+		0C06031C13D20E7700C5A893 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C06031A13D20E7700C5A893 /* AboutView.xib */; };
+		0C120D1D13B6A75B00C0820D /* JobServerRequst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C120D1C13B6A75B00C0820D /* JobServerRequst.m */; };
+		0C120D2013B6A81C00C0820D /* ConnectionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C120D1F13B6A81C00C0820D /* ConnectionHandler.m */; };
+		0C120D2913B6AE0E00C0820D /* RssItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C120D2813B6AE0D00C0820D /* RssItem.m */; };
+		0C120D2C13B6AE2000C0820D /* ParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C120D2B13B6AE2000C0820D /* ParseOperation.m */; };
+		0C1660EF150CA21300832E53 /* JS-57-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C1660EE150CA21300832E53 /* JS-57-icon.png */; };
+		0C1660F2150CA21F00832E53 /* JS-114-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C1660F1150CA21F00832E53 /* JS-114-icon.png */; };
+		0C2F30C313C9EBBD009A6A2E /* FeaturedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F30C113C9EBBD009A6A2E /* FeaturedViewController.m */; };
+		0C2F30C413C9EBBD009A6A2E /* FeaturedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C2F30C213C9EBBD009A6A2E /* FeaturedView.xib */; };
+		0C2F30D813CA3788009A6A2E /* PickerViewAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F30D713CA3788009A6A2E /* PickerViewAlert.m */; };
+		0C6BB67113BE7AC000589C43 /* JobListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6BB66F13BE7AC000589C43 /* JobListViewController.m */; };
+		0C6BB67213BE7AC000589C43 /* JobListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C6BB67013BE7AC000589C43 /* JobListView.xib */; };
+		0C6BB67B13BE884000589C43 /* JobDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6BB67913BE884000589C43 /* JobDetailViewController.m */; };
+		0C6BB67C13BE884000589C43 /* JobDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C6BB67A13BE884000589C43 /* JobDetailView.xib */; };
+		0CB970FE150D5132000E1520 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB970FD150D5132000E1520 /* Default@2x.png */; };
+		0CB97101150D517F000E1520 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB97100150D517F000E1520 /* Default.png */; };
+		0CC9D22E13EED2E400BC8772 /* JobshoutGreyLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC9D22C13EED2E400BC8772 /* JobshoutGreyLogo.png */; };
+		0CC9D22F13EED2E400BC8772 /* JobshoutGreyLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CC9D22D13EED2E400BC8772 /* JobshoutGreyLogo@2x.png */; };
+		0CCC307313F6A1FE004BB0AF /* SearchLocationStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC307213F6A1FE004BB0AF /* SearchLocationStrings.m */; };
+		0CD09B2313DCA396007545BB /* Jobshoutlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CD09B2113DCA396007545BB /* Jobshoutlogo.png */; };
+		0CD09B2413DCA396007545BB /* Jobshoutlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CD09B2213DCA396007545BB /* Jobshoutlogo@2x.png */; };
+		0CD09B3013DCBD5F007545BB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD09B2F13DCBD5F007545BB /* MessageUI.framework */; };
+		0CD09B3413DCCACA007545BB /* SearchPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD09B3213DCCACA007545BB /* SearchPickerViewController.m */; };
+		0CD09B3513DCCACA007545BB /* SearchPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD09B3313DCCACA007545BB /* SearchPickerView.xib */; };
+		0CD1486413B2ABD5007EA87E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD1486313B2ABD5007EA87E /* UIKit.framework */; };
+		0CD1486613B2ABD5007EA87E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD1486513B2ABD5007EA87E /* Foundation.framework */; };
+		0CD1486813B2ABD5007EA87E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD1486713B2ABD5007EA87E /* CoreGraphics.framework */; };
+		0CD1486E13B2ABD5007EA87E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CD1486C13B2ABD5007EA87E /* InfoPlist.strings */; };
+		0CD1487113B2ABD5007EA87E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1487013B2ABD5007EA87E /* main.m */; };
+		0CD1487413B2ABD5007EA87E /* JobShoutAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1487313B2ABD5007EA87E /* JobShoutAppDelegate.m */; };
+		0CD1487713B2ABD5007EA87E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD1487513B2ABD5007EA87E /* MainWindow.xib */; };
+		0CD1487A13B2ABD5007EA87E /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1487913B2ABD5007EA87E /* SearchViewController.m */; };
+		0CD1488013B2ABD5007EA87E /* SearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD1487E13B2ABD5007EA87E /* SearchView.xib */; };
+		0CD1488A13B2ABD5007EA87E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD1486313B2ABD5007EA87E /* UIKit.framework */; };
+		0CD1488B13B2ABD5007EA87E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD1486513B2ABD5007EA87E /* Foundation.framework */; };
+		0CD1488C13B2ABD5007EA87E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD1486713B2ABD5007EA87E /* CoreGraphics.framework */; };
+		0CD1489413B2ABD5007EA87E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CD1489213B2ABD5007EA87E /* InfoPlist.strings */; };
+		0CD1489713B2ABD5007EA87E /* JobShoutTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0CD1489613B2ABD5007EA87E /* JobShoutTests.h */; };
+		0CD1489913B2ABD5007EA87E /* JobShoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1489813B2ABD5007EA87E /* JobShoutTests.m */; };
+		0CD148A513B2ABEB007EA87E /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD148A313B2ABEB007EA87E /* MainWindow-iPad.xib */; };
+		0CD148A713B2B034007EA87E /* KinkakuJi.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CD148A613B2B034007EA87E /* KinkakuJi.png */; };
+		0CD148BB13B2C356007EA87E /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD148B913B2C356007EA87E /* MoreViewController.m */; };
+		0CD148BC13B2C356007EA87E /* MoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD148BA13B2C356007EA87E /* MoreView.xib */; };
+		0CD747AF13FFE9C800034290 /* InternetConnectionMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD747AE13FFE9C800034290 /* InternetConnectionMonitor.m */; };
+		0CD747B313FFEA3600034290 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD747B213FFEA3600034290 /* Reachability.m */; };
+		0CD747C113FFEA8C00034290 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD747C013FFEA8C00034290 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CD1488D13B2ABD5007EA87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CD1485613B2ABD4007EA87E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CD1485E13B2ABD5007EA87E;
+			remoteInfo = JobShout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C06031813D20E7700C5A893 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		0C06031913D20E7700C5A893 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		0C06031A13D20E7700C5A893 /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		0C120D1B13B6A75B00C0820D /* JobServerRequst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobServerRequst.h; sourceTree = "<group>"; };
+		0C120D1C13B6A75B00C0820D /* JobServerRequst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobServerRequst.m; sourceTree = "<group>"; };
+		0C120D1E13B6A81C00C0820D /* ConnectionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionHandler.h; sourceTree = "<group>"; };
+		0C120D1F13B6A81C00C0820D /* ConnectionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionHandler.m; sourceTree = "<group>"; };
+		0C120D2713B6AE0D00C0820D /* RssItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssItem.h; sourceTree = "<group>"; };
+		0C120D2813B6AE0D00C0820D /* RssItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssItem.m; sourceTree = "<group>"; };
+		0C120D2A13B6AE2000C0820D /* ParseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseOperation.h; sourceTree = "<group>"; };
+		0C120D2B13B6AE2000C0820D /* ParseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseOperation.m; sourceTree = "<group>"; };
+		0C120D2D13B6B7C300C0820D /* ServerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerState.h; sourceTree = "<group>"; };
+		0C1660EE150CA21300832E53 /* JS-57-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JS-57-icon.png"; sourceTree = "<group>"; };
+		0C1660F1150CA21F00832E53 /* JS-114-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JS-114-icon.png"; sourceTree = "<group>"; };
+		0C2F30C013C9EBBC009A6A2E /* FeaturedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeaturedViewController.h; sourceTree = "<group>"; };
+		0C2F30C113C9EBBD009A6A2E /* FeaturedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeaturedViewController.m; sourceTree = "<group>"; };
+		0C2F30C213C9EBBD009A6A2E /* FeaturedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeaturedView.xib; sourceTree = "<group>"; };
+		0C2F30D613CA3788009A6A2E /* PickerViewAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewAlert.h; sourceTree = "<group>"; };
+		0C2F30D713CA3788009A6A2E /* PickerViewAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewAlert.m; sourceTree = "<group>"; };
+		0C6BB66E13BE7AC000589C43 /* JobListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobListViewController.h; sourceTree = "<group>"; };
+		0C6BB66F13BE7AC000589C43 /* JobListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobListViewController.m; sourceTree = "<group>"; };
+		0C6BB67013BE7AC000589C43 /* JobListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobListView.xib; sourceTree = "<group>"; };
+		0C6BB67813BE884000589C43 /* JobDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobDetailViewController.h; sourceTree = "<group>"; };
+		0C6BB67913BE884000589C43 /* JobDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobDetailViewController.m; sourceTree = "<group>"; };
+		0C6BB67A13BE884000589C43 /* JobDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobDetailView.xib; sourceTree = "<group>"; };
+		0C89BC0D150D624400CE5F29 /* JobShout.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = JobShout.entitlements; sourceTree = "<group>"; };
+		0CB970FD150D5132000E1520 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0CB97100150D517F000E1520 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0CC9D22C13EED2E400BC8772 /* JobshoutGreyLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JobshoutGreyLogo.png; sourceTree = "<group>"; };
+		0CC9D22D13EED2E400BC8772 /* JobshoutGreyLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JobshoutGreyLogo@2x.png"; sourceTree = "<group>"; };
+		0CCC307113F6A1FE004BB0AF /* SearchLocationStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchLocationStrings.h; sourceTree = "<group>"; };
+		0CCC307213F6A1FE004BB0AF /* SearchLocationStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchLocationStrings.m; sourceTree = "<group>"; };
+		0CD09B2113DCA396007545BB /* Jobshoutlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jobshoutlogo.png; sourceTree = "<group>"; };
+		0CD09B2213DCA396007545BB /* Jobshoutlogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jobshoutlogo@2x.png"; sourceTree = "<group>"; };
+		0CD09B2F13DCBD5F007545BB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0CD09B3113DCCACA007545BB /* SearchPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchPickerViewController.h; sourceTree = "<group>"; };
+		0CD09B3213DCCACA007545BB /* SearchPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchPickerViewController.m; sourceTree = "<group>"; };
+		0CD09B3313DCCACA007545BB /* SearchPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchPickerView.xib; sourceTree = "<group>"; };
+		0CD1485F13B2ABD5007EA87E /* Jobshout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jobshout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD1486313B2ABD5007EA87E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0CD1486513B2ABD5007EA87E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0CD1486713B2ABD5007EA87E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0CD1486B13B2ABD5007EA87E /* JobShout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JobShout-Info.plist"; sourceTree = "<group>"; };
+		0CD1486D13B2ABD5007EA87E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0CD1486F13B2ABD5007EA87E /* JobShout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JobShout-Prefix.pch"; sourceTree = "<group>"; };
+		0CD1487013B2ABD5007EA87E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0CD1487213B2ABD5007EA87E /* JobShoutAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobShoutAppDelegate.h; sourceTree = "<group>"; };
+		0CD1487313B2ABD5007EA87E /* JobShoutAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobShoutAppDelegate.m; sourceTree = "<group>"; };
+		0CD1487613B2ABD5007EA87E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0CD1487813B2ABD5007EA87E /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		0CD1487913B2ABD5007EA87E /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		0CD1487F13B2ABD5007EA87E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SearchView.xib; sourceTree = "<group>"; };
+		0CD1488913B2ABD5007EA87E /* JobShoutTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobShoutTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD1489113B2ABD5007EA87E /* JobShoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JobShoutTests-Info.plist"; sourceTree = "<group>"; };
+		0CD1489313B2ABD5007EA87E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0CD1489513B2ABD5007EA87E /* JobShoutTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JobShoutTests-Prefix.pch"; sourceTree = "<group>"; };
+		0CD1489613B2ABD5007EA87E /* JobShoutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobShoutTests.h; sourceTree = "<group>"; };
+		0CD1489813B2ABD5007EA87E /* JobShoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobShoutTests.m; sourceTree = "<group>"; };
+		0CD148A413B2ABEB007EA87E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		0CD148A613B2B034007EA87E /* KinkakuJi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KinkakuJi.png; sourceTree = "<group>"; };
+		0CD148B813B2C356007EA87E /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		0CD148B913B2C356007EA87E /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		0CD148BA13B2C356007EA87E /* MoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreView.xib; sourceTree = "<group>"; };
+		0CD747AD13FFE9C800034290 /* InternetConnectionMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetConnectionMonitor.h; sourceTree = "<group>"; };
+		0CD747AE13FFE9C800034290 /* InternetConnectionMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetConnectionMonitor.m; sourceTree = "<group>"; };
+		0CD747B113FFEA3600034290 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		0CD747B213FFEA3600034290 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		0CD747C013FFEA8C00034290 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CD1485C13B2ABD5007EA87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD747C113FFEA8C00034290 /* SystemConfiguration.framework in Frameworks */,
+				0CD09B3013DCBD5F007545BB /* MessageUI.framework in Frameworks */,
+				0CD1486413B2ABD5007EA87E /* UIKit.framework in Frameworks */,
+				0CD1486613B2ABD5007EA87E /* Foundation.framework in Frameworks */,
+				0CD1486813B2ABD5007EA87E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD1488513B2ABD5007EA87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD1488A13B2ABD5007EA87E /* UIKit.framework in Frameworks */,
+				0CD1488B13B2ABD5007EA87E /* Foundation.framework in Frameworks */,
+				0CD1488C13B2ABD5007EA87E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C06031113D2005800C5A893 /* Job List Page */ = {
+			isa = PBXGroup;
+			children = (
+				0C6BB66E13BE7AC000589C43 /* JobListViewController.h */,
+				0C6BB66F13BE7AC000589C43 /* JobListViewController.m */,
+				0C6BB67013BE7AC000589C43 /* JobListView.xib */,
+				0C6BB67813BE884000589C43 /* JobDetailViewController.h */,
+				0C6BB67913BE884000589C43 /* JobDetailViewController.m */,
+				0C6BB67A13BE884000589C43 /* JobDetailView.xib */,
+			);
+			name = "Job List Page";
+			sourceTree = "<group>";
+		};
+		0C120D1913B6A73400C0820D /* Job Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C120D2D13B6B7C300C0820D /* ServerState.h */,
+				0C120D2A13B6AE2000C0820D /* ParseOperation.h */,
+				0C120D2B13B6AE2000C0820D /* ParseOperation.m */,
+				0C120D2713B6AE0D00C0820D /* RssItem.h */,
+				0C120D2813B6AE0D00C0820D /* RssItem.m */,
+				0C120D1E13B6A81C00C0820D /* ConnectionHandler.h */,
+				0C120D1F13B6A81C00C0820D /* ConnectionHandler.m */,
+				0C120D1B13B6A75B00C0820D /* JobServerRequst.h */,
+				0C120D1C13B6A75B00C0820D /* JobServerRequst.m */,
+				0CCC307113F6A1FE004BB0AF /* SearchLocationStrings.h */,
+				0CCC307213F6A1FE004BB0AF /* SearchLocationStrings.m */,
+			);
+			name = "Job Model";
+			sourceTree = "<group>";
+		};
+		0CD09B2013DCA290007545BB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0CC9D22C13EED2E400BC8772 /* JobshoutGreyLogo.png */,
+				0CC9D22D13EED2E400BC8772 /* JobshoutGreyLogo@2x.png */,
+				0CD09B2113DCA396007545BB /* Jobshoutlogo.png */,
+				0CD09B2213DCA396007545BB /* Jobshoutlogo@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0CD1485413B2ABD4007EA87E = {
+			isa = PBXGroup;
+			children = (
+				0CB97100150D517F000E1520 /* Default.png */,
+				0CB970FD150D5132000E1520 /* Default@2x.png */,
+				0C1660F1150CA21F00832E53 /* JS-114-icon.png */,
+				0C1660EE150CA21300832E53 /* JS-57-icon.png */,
+				0CD1486913B2ABD5007EA87E /* JobShout */,
+				0CD1488F13B2ABD5007EA87E /* JobShoutTests */,
+				0CD1486213B2ABD5007EA87E /* Frameworks */,
+				0CD1486013B2ABD5007EA87E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CD1486013B2ABD5007EA87E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CD1485F13B2ABD5007EA87E /* Jobshout.app */,
+				0CD1488913B2ABD5007EA87E /* JobShoutTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CD1486213B2ABD5007EA87E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CD747C013FFEA8C00034290 /* SystemConfiguration.framework */,
+				0CD09B2F13DCBD5F007545BB /* MessageUI.framework */,
+				0CD1486313B2ABD5007EA87E /* UIKit.framework */,
+				0CD1486513B2ABD5007EA87E /* Foundation.framework */,
+				0CD1486713B2ABD5007EA87E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CD1486913B2ABD5007EA87E /* JobShout */ = {
+			isa = PBXGroup;
+			children = (
+				0C89BC0D150D624400CE5F29 /* JobShout.entitlements */,
+				0CD747B413FFEA4300034290 /* Conection Monitor */,
+				0C120D1913B6A73400C0820D /* Job Model */,
+				0C06031113D2005800C5A893 /* Job List Page */,
+				0CD148A813B2B4AA007EA87E /* Search Page */,
+				0CD148A913B2B4BF007EA87E /* Browse Page */,
+				0CD148AA13B2B4ED007EA87E /* More Page */,
+				0CD148A213B2ABE8007EA87E /* iPad */,
+				0CD1487213B2ABD5007EA87E /* JobShoutAppDelegate.h */,
+				0CD1487313B2ABD5007EA87E /* JobShoutAppDelegate.m */,
+				0CD1487513B2ABD5007EA87E /* MainWindow.xib */,
+				0CD1486A13B2ABD5007EA87E /* Supporting Files */,
+			);
+			path = JobShout;
+			sourceTree = "<group>";
+		};
+		0CD1486A13B2ABD5007EA87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CD09B2013DCA290007545BB /* Images */,
+				0CD148A613B2B034007EA87E /* KinkakuJi.png */,
+				0CD1486B13B2ABD5007EA87E /* JobShout-Info.plist */,
+				0CD1486C13B2ABD5007EA87E /* InfoPlist.strings */,
+				0CD1486F13B2ABD5007EA87E /* JobShout-Prefix.pch */,
+				0CD1487013B2ABD5007EA87E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CD1488F13B2ABD5007EA87E /* JobShoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CD1489613B2ABD5007EA87E /* JobShoutTests.h */,
+				0CD1489813B2ABD5007EA87E /* JobShoutTests.m */,
+				0CD1489013B2ABD5007EA87E /* Supporting Files */,
+			);
+			path = JobShoutTests;
+			sourceTree = "<group>";
+		};
+		0CD1489013B2ABD5007EA87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CD1489113B2ABD5007EA87E /* JobShoutTests-Info.plist */,
+				0CD1489213B2ABD5007EA87E /* InfoPlist.strings */,
+				0CD1489513B2ABD5007EA87E /* JobShoutTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CD148A213B2ABE8007EA87E /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				0CD148A313B2ABEB007EA87E /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		0CD148A813B2B4AA007EA87E /* Search Page */ = {
+			isa = PBXGroup;
+			children = (
+				0CD1487813B2ABD5007EA87E /* SearchViewController.h */,
+				0CD1487913B2ABD5007EA87E /* SearchViewController.m */,
+				0CD1487E13B2ABD5007EA87E /* SearchView.xib */,
+				0C2F30D613CA3788009A6A2E /* PickerViewAlert.h */,
+				0C2F30D713CA3788009A6A2E /* PickerViewAlert.m */,
+				0CD09B3113DCCACA007545BB /* SearchPickerViewController.h */,
+				0CD09B3213DCCACA007545BB /* SearchPickerViewController.m */,
+				0CD09B3313DCCACA007545BB /* SearchPickerView.xib */,
+			);
+			name = "Search Page";
+			sourceTree = "<group>";
+		};
+		0CD148A913B2B4BF007EA87E /* Browse Page */ = {
+			isa = PBXGroup;
+			children = (
+				0C2F30C013C9EBBC009A6A2E /* FeaturedViewController.h */,
+				0C2F30C113C9EBBD009A6A2E /* FeaturedViewController.m */,
+				0C2F30C213C9EBBD009A6A2E /* FeaturedView.xib */,
+			);
+			name = "Browse Page";
+			sourceTree = "<group>";
+		};
+		0CD148AA13B2B4ED007EA87E /* More Page */ = {
+			isa = PBXGroup;
+			children = (
+				0CD148B813B2C356007EA87E /* MoreViewController.h */,
+				0CD148B913B2C356007EA87E /* MoreViewController.m */,
+				0CD148BA13B2C356007EA87E /* MoreView.xib */,
+				0C06031813D20E7700C5A893 /* AboutViewController.h */,
+				0C06031913D20E7700C5A893 /* AboutViewController.m */,
+				0C06031A13D20E7700C5A893 /* AboutView.xib */,
+			);
+			name = "More Page";
+			sourceTree = "<group>";
+		};
+		0CD747B413FFEA4300034290 /* Conection Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				0CD747B113FFEA3600034290 /* Reachability.h */,
+				0CD747B213FFEA3600034290 /* Reachability.m */,
+				0CD747AD13FFE9C800034290 /* InternetConnectionMonitor.h */,
+				0CD747AE13FFE9C800034290 /* InternetConnectionMonitor.m */,
+			);
+			name = "Conection Monitor";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CD1485E13B2ABD5007EA87E /* JobShout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD1489C13B2ABD5007EA87E /* Build configuration list for PBXNativeTarget "JobShout" */;
+			buildPhases = (
+				0CD1485B13B2ABD5007EA87E /* Sources */,
+				0CD1485C13B2ABD5007EA87E /* Frameworks */,
+				0CD1485D13B2ABD5007EA87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JobShout;
+			productName = JobShout;
+			productReference = 0CD1485F13B2ABD5007EA87E /* Jobshout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CD1488813B2ABD5007EA87E /* JobShoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CD1489F13B2ABD5007EA87E /* Build configuration list for PBXNativeTarget "JobShoutTests" */;
+			buildPhases = (
+				0CD1488413B2ABD5007EA87E /* Sources */,
+				0CD1488513B2ABD5007EA87E /* Frameworks */,
+				0CD1488613B2ABD5007EA87E /* Resources */,
+				0CD1488713B2ABD5007EA87E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CD1488E13B2ABD5007EA87E /* PBXTargetDependency */,
+			);
+			name = JobShoutTests;
+			productName = JobShoutTests;
+			productReference = 0CD1488913B2ABD5007EA87E /* JobShoutTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CD1485613B2ABD4007EA87E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = aaa;
+			};
+			buildConfigurationList = 0CD1485913B2ABD4007EA87E /* Build configuration list for PBXProject "JobShout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0CD1485413B2ABD4007EA87E;
+			productRefGroup = 0CD1486013B2ABD5007EA87E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CD1485E13B2ABD5007EA87E /* JobShout */,
+				0CD1488813B2ABD5007EA87E /* JobShoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CD1485D13B2ABD5007EA87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD1486E13B2ABD5007EA87E /* InfoPlist.strings in Resources */,
+				0CD1487713B2ABD5007EA87E /* MainWindow.xib in Resources */,
+				0CD1488013B2ABD5007EA87E /* SearchView.xib in Resources */,
+				0CD148A513B2ABEB007EA87E /* MainWindow-iPad.xib in Resources */,
+				0CD148A713B2B034007EA87E /* KinkakuJi.png in Resources */,
+				0CD148BC13B2C356007EA87E /* MoreView.xib in Resources */,
+				0C6BB67213BE7AC000589C43 /* JobListView.xib in Resources */,
+				0C6BB67C13BE884000589C43 /* JobDetailView.xib in Resources */,
+				0C2F30C413C9EBBD009A6A2E /* FeaturedView.xib in Resources */,
+				0C06031C13D20E7700C5A893 /* AboutView.xib in Resources */,
+				0CD09B2313DCA396007545BB /* Jobshoutlogo.png in Resources */,
+				0CD09B2413DCA396007545BB /* Jobshoutlogo@2x.png in Resources */,
+				0CD09B3513DCCACA007545BB /* SearchPickerView.xib in Resources */,
+				0CC9D22E13EED2E400BC8772 /* JobshoutGreyLogo.png in Resources */,
+				0CC9D22F13EED2E400BC8772 /* JobshoutGreyLogo@2x.png in Resources */,
+				0C1660EF150CA21300832E53 /* JS-57-icon.png in Resources */,
+				0C1660F2150CA21F00832E53 /* JS-114-icon.png in Resources */,
+				0CB970FE150D5132000E1520 /* Default@2x.png in Resources */,
+				0CB97101150D517F000E1520 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD1488613B2ABD5007EA87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD1489413B2ABD5007EA87E /* InfoPlist.strings in Resources */,
+				0CD1489713B2ABD5007EA87E /* JobShoutTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CD1488713B2ABD5007EA87E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CD1485B13B2ABD5007EA87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD1487113B2ABD5007EA87E /* main.m in Sources */,
+				0CD1487413B2ABD5007EA87E /* JobShoutAppDelegate.m in Sources */,
+				0CD1487A13B2ABD5007EA87E /* SearchViewController.m in Sources */,
+				0CD148BB13B2C356007EA87E /* MoreViewController.m in Sources */,
+				0C120D1D13B6A75B00C0820D /* JobServerRequst.m in Sources */,
+				0C120D2013B6A81C00C0820D /* ConnectionHandler.m in Sources */,
+				0C120D2913B6AE0E00C0820D /* RssItem.m in Sources */,
+				0C120D2C13B6AE2000C0820D /* ParseOperation.m in Sources */,
+				0C6BB67113BE7AC000589C43 /* JobListViewController.m in Sources */,
+				0C6BB67B13BE884000589C43 /* JobDetailViewController.m in Sources */,
+				0C2F30C313C9EBBD009A6A2E /* FeaturedViewController.m in Sources */,
+				0C2F30D813CA3788009A6A2E /* PickerViewAlert.m in Sources */,
+				0C06031B13D20E7700C5A893 /* AboutViewController.m in Sources */,
+				0CD09B3413DCCACA007545BB /* SearchPickerViewController.m in Sources */,
+				0CCC307313F6A1FE004BB0AF /* SearchLocationStrings.m in Sources */,
+				0CD747AF13FFE9C800034290 /* InternetConnectionMonitor.m in Sources */,
+				0CD747B313FFEA3600034290 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CD1488413B2ABD5007EA87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD1489913B2ABD5007EA87E /* JobShoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CD1488E13B2ABD5007EA87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CD1485E13B2ABD5007EA87E /* JobShout */;
+			targetProxy = 0CD1488D13B2ABD5007EA87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CD1486C13B2ABD5007EA87E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CD1486D13B2ABD5007EA87E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0CD1487513B2ABD5007EA87E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CD1487613B2ABD5007EA87E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0CD1487E13B2ABD5007EA87E /* SearchView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CD1487F13B2ABD5007EA87E /* en */,
+			);
+			name = SearchView.xib;
+			sourceTree = "<group>";
+		};
+		0CD1489213B2ABD5007EA87E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CD1489313B2ABD5007EA87E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0CD148A313B2ABEB007EA87E /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CD148A413B2ABEB007EA87E /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CD1489A13B2ABD5007EA87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rollo Carpenter (WPWN6Q4JU2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rollo Carpenter (WPWN6Q4JU2)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PROVISIONING_PROFILE = "3CF4FB5D-AF9F-454C-AC60-F7CF98643E83";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3CF4FB5D-AF9F-454C-AC60-F7CF98643E83";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0CD1489B13B2ABD5007EA87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution: balinder Walia";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: balinder Walia";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "BF80307D-5D68-407C-AA24-2DBAFA18FDBE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BF80307D-5D68-407C-AA24-2DBAFA18FDBE";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0CD1489D13B2ABD5007EA87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Rollo Carpenter (WPWN6Q4JU2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rollo Carpenter (WPWN6Q4JU2)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JobShout/JobShout-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "JobShout/JobShout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-Wall";
+				PRODUCT_NAME = Jobshout;
+				PROVISIONING_PROFILE = "3CF4FB5D-AF9F-454C-AC60-F7CF98643E83";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3CF4FB5D-AF9F-454C-AC60-F7CF98643E83";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0CD1489E13B2ABD5007EA87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: balinder Walia";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: balinder Walia";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JobShout/JobShout-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "JobShout/JobShout-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = Jobshout;
+				PROVISIONING_PROFILE = "BF80307D-5D68-407C-AA24-2DBAFA18FDBE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BF80307D-5D68-407C-AA24-2DBAFA18FDBE";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0CD148A013B2ABD5007EA87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JobShout.app/JobShout";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JobShoutTests/JobShoutTests-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "JobShoutTests/JobShoutTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0CD148A113B2ABD5007EA87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JobShout.app/JobShout";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JobShoutTests/JobShoutTests-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "JobShoutTests/JobShoutTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CD1485913B2ABD4007EA87E /* Build configuration list for PBXProject "JobShout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD1489A13B2ABD5007EA87E /* Debug */,
+				0CD1489B13B2ABD5007EA87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0CD1489C13B2ABD5007EA87E /* Build configuration list for PBXNativeTarget "JobShout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD1489D13B2ABD5007EA87E /* Debug */,
+				0CD1489E13B2ABD5007EA87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0CD1489F13B2ABD5007EA87E /* Build configuration list for PBXNativeTarget "JobShoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD148A013B2ABD5007EA87E /* Debug */,
+				0CD148A113B2ABD5007EA87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CD1485613B2ABD4007EA87E /* Project object */;
+}
