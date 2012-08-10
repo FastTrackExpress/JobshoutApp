@@ -3,7 +3,7 @@
 //  JobShoutTests
 //
 //  Created by Liam Flynn on 23/06/2011.
-//  Copyright 2011 aaa. All rights reserved.
+//  Copyright 2011 TenthMatrix. All rights reserved.
 //
 
 #import "JobShoutTests.h"

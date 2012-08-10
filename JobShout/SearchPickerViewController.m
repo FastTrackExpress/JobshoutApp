@@ -3,7 +3,7 @@
 //  JobShout
 //
 //  Created by Liam Flynn on 24/07/2011.
-//  Copyright 2011 aaa. All rights reserved.
+//  Copyright 2011 TenthMatrix. All rights reserved.
 //
 
 #import "SearchPickerViewController.h"

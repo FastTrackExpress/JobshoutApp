@@ -3,7 +3,7 @@
 //  JobShout
 //
 //  Created by Liam Flynn on 18/05/2011.
-//  Copyright 2011 aaa. All rights reserved.
+//  Copyright 2011 TenthMatrix. All rights reserved.
 //
 
 #import "RssItem.h"
