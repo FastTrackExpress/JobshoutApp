@@ -48,7 +48,6 @@
 		0CD1489713B2ABD5007EA87E /* JobShoutTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0CD1489613B2ABD5007EA87E /* JobShoutTests.h */; };
 		0CD1489913B2ABD5007EA87E /* JobShoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1489813B2ABD5007EA87E /* JobShoutTests.m */; };
 		0CD148A513B2ABEB007EA87E /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD148A313B2ABEB007EA87E /* MainWindow-iPad.xib */; };
-		0CD148A713B2B034007EA87E /* KinkakuJi.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CD148A613B2B034007EA87E /* KinkakuJi.png */; };
 		0CD148BB13B2C356007EA87E /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD148B913B2C356007EA87E /* MoreViewController.m */; };
 		0CD148BC13B2C356007EA87E /* MoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD148BA13B2C356007EA87E /* MoreView.xib */; };
 		0CD747AF13FFE9C800034290 /* InternetConnectionMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD747AE13FFE9C800034290 /* InternetConnectionMonitor.m */; };
@@ -126,7 +125,6 @@
 		0CD1489613B2ABD5007EA87E /* JobShoutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JobShoutTests.h; sourceTree = "<group>"; };
 		0CD1489813B2ABD5007EA87E /* JobShoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JobShoutTests.m; sourceTree = "<group>"; };
 		0CD148A413B2ABEB007EA87E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
-		0CD148A613B2B034007EA87E /* KinkakuJi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KinkakuJi.png; sourceTree = "<group>"; };
 		0CD148B813B2C356007EA87E /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
 		0CD148B913B2C356007EA87E /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
 		0CD148BA13B2C356007EA87E /* MoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreView.xib; sourceTree = "<group>"; };
@@ -263,7 +261,6 @@
 			isa = PBXGroup;
 			children = (
 				0CD09B2013DCA290007545BB /* Images */,
-				0CD148A613B2B034007EA87E /* KinkakuJi.png */,
 				0CD1486B13B2ABD5007EA87E /* JobShout-Info.plist */,
 				0CD1486C13B2ABD5007EA87E /* InfoPlist.strings */,
 				0CD1486F13B2ABD5007EA87E /* JobShout-Prefix.pch */,
@@ -424,7 +421,6 @@
 				0CD1487713B2ABD5007EA87E /* MainWindow.xib in Resources */,
 				0CD1488013B2ABD5007EA87E /* SearchView.xib in Resources */,
 				0CD148A513B2ABEB007EA87E /* MainWindow-iPad.xib in Resources */,
-				0CD148A713B2B034007EA87E /* KinkakuJi.png in Resources */,
 				0CD148BC13B2C356007EA87E /* MoreView.xib in Resources */,
 				0C6BB67213BE7AC000589C43 /* JobListView.xib in Resources */,
 				0C6BB67C13BE884000589C43 /* JobDetailView.xib in Resources */,

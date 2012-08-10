@@ -22,10 +22,6 @@
         internetReachable = [Reachability reachabilityForInternetConnection];
         [internetReachable startNotifier];
         
-        // check if a pathway to a random host exists
-        //hostReachable = [[Reachability reachabilityWithHostName: @"http://www.jobshout.com/"] retain];
-        //[hostReachable startNotifier];
-        
         //initial check of internet connection. 
         [self networkStatusRecheck];
     }
@@ -72,33 +68,6 @@
             
         }
     }
-    
-    /*NetworkStatus hostStatus = [hostReachable currentReachabilityStatus];
-    switch (hostStatus){
-        case NotReachable:{
-            DebugLog(@"A gateway to the host server is down.");
-            self.hostActive = NO;
-            
-            [self noConnectionAlert:internetActive];
-            
-            break;
-            
-        }
-        case ReachableViaWiFi:{
-            DebugLog(@"A gateway to the host server is working via WIFI.");
-            self.hostActive = YES;
-            
-            break;
-            
-        }
-        case ReachableViaWWAN:{
-            DebugLog(@"A gateway to the host server is working via WWAN.");
-            self.hostActive = YES;
-            
-            break;
-            
-        }
-    }*/
 }
 
 - (void) noConnectionAlert:(BOOL)hasInternet{

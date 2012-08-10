@@ -13,8 +13,6 @@
     
     //variables for checking reacability of Cleverbot servers on startup.
     Reachability* internetReachable;
-    //Reachability* hostReachable;
-    //NetworkStatus hostActive;
     NetworkStatus internetActive;
 }
 
