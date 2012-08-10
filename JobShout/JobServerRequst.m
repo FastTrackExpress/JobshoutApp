@@ -37,7 +37,6 @@
 - (void)dealloc{
     [connection clearOutstandingRequests];
     connection.delegate = nil;
-    
 }
 
 - (void)connectAndAppendToArray:(NSMutableArray*)result usingRequest:(NSString*)request{
