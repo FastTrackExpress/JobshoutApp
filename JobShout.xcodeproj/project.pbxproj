@@ -18,6 +18,7 @@
 		0C2F30C313C9EBBD009A6A2E /* FeaturedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F30C113C9EBBD009A6A2E /* FeaturedViewController.m */; };
 		0C2F30C413C9EBBD009A6A2E /* FeaturedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C2F30C213C9EBBD009A6A2E /* FeaturedView.xib */; };
 		0C2F30D813CA3788009A6A2E /* PickerViewAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F30D713CA3788009A6A2E /* PickerViewAlert.m */; };
+		0C5BBFAE15D97F1300FF2514 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C5BBFAD15D97F1300FF2514 /* README.md */; };
 		0C6BB67113BE7AC000589C43 /* JobListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6BB66F13BE7AC000589C43 /* JobListViewController.m */; };
 		0C6BB67213BE7AC000589C43 /* JobListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C6BB67013BE7AC000589C43 /* JobListView.xib */; };
 		0C6BB67B13BE884000589C43 /* JobDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6BB67913BE884000589C43 /* JobDetailViewController.m */; };
@@ -85,6 +86,7 @@
 		0C2F30C213C9EBBD009A6A2E /* FeaturedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeaturedView.xib; sourceTree = "<group>"; };
 		0C2F30D613CA3788009A6A2E /* PickerViewAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewAlert.h; sourceTree = "<group>"; };
 		0C2F30D713CA3788009A6A2E /* PickerViewAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewAlert.m; sourceTree = "<group>"; };
+		0C5BBFAD15D97F1300FF2514 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		0C6BB66E13BE7AC000589C43 /* JobListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobListViewController.h; sourceTree = "<group>"; };
 		0C6BB66F13BE7AC000589C43 /* JobListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobListViewController.m; sourceTree = "<group>"; };
 		0C6BB67013BE7AC000589C43 /* JobListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JobListView.xib; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 		0CD1485413B2ABD4007EA87E = {
 			isa = PBXGroup;
 			children = (
+				0C5BBFAD15D97F1300FF2514 /* README.md */,
 				0CB97100150D517F000E1520 /* Default.png */,
 				0CB970FD150D5132000E1520 /* Default@2x.png */,
 				0C1660F1150CA21F00832E53 /* JS-114-icon.png */,
@@ -435,6 +438,7 @@
 				0C1660F2150CA21F00832E53 /* JS-114-icon.png in Resources */,
 				0CB970FE150D5132000E1520 /* Default@2x.png in Resources */,
 				0CB97101150D517F000E1520 /* Default.png in Resources */,
+				0C5BBFAE15D97F1300FF2514 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
